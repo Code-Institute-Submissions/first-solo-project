@@ -6,13 +6,56 @@
 .background-main {
     background: url(../images/bg5.jpg);
     background-position: center;
+    background-size:cover;
+
+}
+
+
+
+/*******************Footer*************/
+
+.footer-style {
+    color: #fafafa;
+    text-align: center;
+    margin-top: 650px;
+}
+
+
+
+.inline-block {
+    display: inline-block;
+}
+
+.icons {
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.icons i {
+    color: #fafafa;
+}
+
+.icons i:hover {
+    color: #ff5773;
+    transition: all 0.35s ease-in-out;
+}
+
+.tides {
+    color: #fafafa;
+}
+
+.tides:hover {
+    color: #ff5773;
+    transition: all 0.35s ease-in-out;
 }
 
 /*******************navbar******************/
 
-
 #nav {
     margin: 0;
+    width: 100%;
+    vertical-align: middle;
 }
 
 #nav li {
@@ -25,7 +68,10 @@
     text-decoration: none;
     font-family: "Exo+2", sans-serif;
     height: 100px;
-  
+    display: inline-block;
+    width: 200px;
+    
+
 }
 
 .menuitem a {
@@ -54,12 +100,35 @@
     letter-spacing: 2px;
 }
 
-/******************hover**************/
 
-.a:hover {
-    background: #fafafa;
-}
 
 
 
 /******************setsail**************/
+
+.setsail {
+    padding-left: 200px;
+    padding-top: 300px;
+    font-family: "Dosis", sans-serif;
+}
+
+.setsail h3 {
+    font-weight: 500;
+    font-family: "Syncopate", sans-serif;
+    font-size: 30px;
+    color: #fafafa;
+}
+
+.fa-arrow-circle-right {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.setsailbutton {
+    color: #fafafa;
+}
+
+.setsailbutton:hover {
+    color: #000;
+    transition: all 0.35s ease-in-out;
+}
