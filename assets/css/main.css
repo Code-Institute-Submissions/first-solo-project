@@ -6,7 +6,7 @@
 .background-main {
     background: url(../images/bg5.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 
 }
 
@@ -17,7 +17,7 @@
 .footer-style {
     color: #fafafa;
     text-align: center;
-    margin-top: 650px;
+
 }
 
 
@@ -53,9 +53,7 @@
 /*******************navbar******************/
 
 #nav {
-    margin: 0;
-    width: 100%;
-    vertical-align: middle;
+    margin-left: 55px;
 }
 
 #nav li {
@@ -70,7 +68,7 @@
     height: 100px;
     display: inline-block;
     width: 200px;
-    
+
 
 }
 
@@ -129,6 +127,159 @@
 }
 
 .setsailbutton:hover {
-    color: #000;
+    color: #ff5773;
     transition: all 0.35s ease-in-out;
+}
+
+
+
+/*******************Ships******************/
+
+.shiptext {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    color: #f5f5f5;
+
+}
+
+.enquire {
+    position: static;
+    float: right;
+
+}
+
+.enquire2 {
+    border: none;
+    background-color: #fec405;
+    display: block;
+    padding: 5px;
+    text-shadow: 5px;
+    margin-top: -40px;
+}
+
+.enquire2 a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Dosis", sans-serif;
+}
+
+.enquire2 a:hover {
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+}
+
+.video-tour {
+    display: block;
+    background-color: #fec405;
+    padding: 5px;
+    text-shadow: 5px;
+    border: none;
+    margin-left: 60px;
+    margin-bottom: 7px;
+    font-family: "Dosis", sans-serif;
+
+}
+
+.video-tour:hover {
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+}
+
+.fa-video {
+    margin-left: 10px;
+}
+
+.ship-description {
+    display: inline-block;
+    height: 150px;
+    width: 500px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+
+.banner1 {
+    background-color: #0a9a4e;
+    text-align: center;
+    font-family: "Exo+2" sans-serif;
+}
+
+.banner2 {
+    background-color: #424143;
+    text-align: center;
+    font-family: "Exo+2" sans-serif;
+}
+
+.banner3 {
+    background-color: #cd3000;
+    text-align: center;
+    font-family: "Exo+2" sans-serif;
+}
+
+.banner4 {
+    background-color: #0a9a4e;
+    text-align: center;
+    font-family: "Exo+2" sans-serif;
+}
+
+.banner5 {
+    background-color: #1DC3DB;
+    text-align: center;
+    font-family: "Exo+2" sans-serif;
+}
+
+.ship-modal {
+    background-color: rgb( 0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+.yacht1 {
+    background: url(../images/my1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 200px;
+    float: left;
+}
+
+.yacht2 {
+    background: url(../images/my2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 200px;
+    float: left;
+}
+
+.yacht3 {
+    background: url(../images/my3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 200px;
+    float: left;
+}
+
+.yacht4 {
+    background: url(../images/my4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 200px;
+    float: left;
+}
+
+.yacht5 {
+    background: url(../images/my5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 200px;
+    float: left;
 }
