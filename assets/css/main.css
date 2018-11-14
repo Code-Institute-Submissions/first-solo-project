@@ -283,3 +283,57 @@
     min-width: 200px;
     float: left;
 }
+
+
+/***************Customerlounge****************/
+
+.cl1 {
+    font-family: "Exo+2", sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    color: #fafafa;
+}
+
+.cl2 {
+    font-family: "Exo+2", sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    color: #fafafa;
+}
+
+
+.cl3 {
+    font-family: "Exo+2", sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    color: #fafafa;
+}
+
+.cl4 {
+    font-family: "Exo+2", sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    color: #fafafa;
+}
+
+.form-align {
+    font-family: "Exo+2", sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    color: #fafafa;
+    margin-bottom: 60px;
+    
+}
+
+.sign-in {
+    margin: auto;
+    width: 50%;
+    background-color: #fec405;
+    border: none;
+    border-radius: 50px;
+}
