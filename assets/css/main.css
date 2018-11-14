@@ -68,9 +68,11 @@
     height: 100px;
     display: inline-block;
     width: 200px;
-
-
+    overflow: hidden;
+    margin: auto;
 }
+
+
 
 .menuitem a {
     width: 100%;
@@ -195,6 +197,9 @@
     width: 500px;
     vertical-align: middle;
     margin-left: 5px;
+    word-wrap: break-word;
+
+
 }
 
 
@@ -232,6 +237,7 @@
 .ship-modal {
     background-color: rgb( 0, 0, 0, 0.5);
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .yacht1 {
@@ -327,7 +333,7 @@
     padding: 5px;
     color: #fafafa;
     margin-bottom: 60px;
-    
+
 }
 
 .sign-in {
@@ -336,4 +342,20 @@
     background-color: #fec405;
     border: none;
     border-radius: 50px;
+}
+
+
+/*************Media Queries**************/
+
+@media (max-width: 768px) {
+
+    .ship-description {
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+    
+    .video-tour {
+        margin-top: 60px;
+    }
+
 }
