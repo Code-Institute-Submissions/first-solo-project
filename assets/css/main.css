@@ -11,7 +11,15 @@
 
 }
 
+/**************Thankyou***************/
 
+.thanks {
+    font-family: "Exo+2", sans-serif;
+    color: #fafafa;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
 
 /*******************Footer*************/
 
@@ -49,6 +57,10 @@
 .tides:hover {
     color: #ff5773;
     transition: all 0.35s ease-in-out;
+}
+
+section {
+    min-height: calc(100vh - 210px);
 }
 
 /*******************navbar******************/
