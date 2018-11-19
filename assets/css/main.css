@@ -60,6 +60,20 @@
     padding: 0;
 }
 
+.hvr-bounce-to-right:before {
+    background: rgb(0, 0, 0, 0.7);
+    height: 120px;
+}
+
+.hvr-bounce-to-left:before {
+    background: rgb(0, 0, 0, 0.7);
+    height: 120px;
+}
+
+.hvr-bounce-to-top:before {
+    background: rgb(0, 0, 0, 0.7);
+    height: 120px;
+}
 
 
 .menuitem {
