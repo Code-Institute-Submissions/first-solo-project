@@ -29,7 +29,7 @@
                 <a href="finance.html" class="hvr-back-pulse"><i class="fa fa-credit-card" aria-hidden="true"></i><span>Finance</span></a>
             </li>
             <li class="col-xs-6 col-sm-3 menuitem">
-                <a href="index.html" class="hvr-back-pulse"><i class="fa fa-phone" aria-hidden="true"></i><span>Contact Us</span></a>
+                <a href="contact-us.html" class="hvr-back-pulse"><i class="fa fa-phone" aria-hidden="true"></i><span>Contact Us</span></a>
             </li>
         </ul>
     </div>
@@ -45,6 +45,7 @@
         </div>
     </div>
 </header>
+
 <body class="background-main">
     <section class="container-fluid">
         <div class="list-inline">
@@ -54,9 +55,13 @@
             </div>
 
             <div class="row">
-                <form class="form-align">
-                    <input type="text" name="username" class="form-control" id="username" placeholder="Username/Email" required/>
-                    <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
+                <form class="form-align" action="thank-you.html" method="get">
+                    <div class="form-group">
+                        <input type="text" name="username" class="form-control" id="username" placeholder="Username/Email" required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
+                    </div>
                     <button class="sign-in">Sign In</button>
                 </form>
 
@@ -70,11 +75,21 @@
 
             <div class="row">
                 <form class="form-align" action="thank-you.html" method="get">
-                    <input type="text" name="username" class="form-control" id="username" placeholder="Username/Email" required/>
-                    <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
-                    <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
-                    <input type="text" name="username" class="form-control" id="username" placeholder="Telephone" required/>
-                    <input type="text" name="address" class="form-control" id="address" placeholder="Home Address" required/>
+                    <div class="form-group">
+                        <input type="text" name="username" class="form-control" id="username" placeholder="Username/Email" required/>
+                    </diV>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="username" class="form-control" id="username" placeholder="Telephone" required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="address" class="form-control" id="address" placeholder="Home Address" required/>
+                    </div>
                     <button class="sign-in">Register</button>
                 </form>
             </div>
