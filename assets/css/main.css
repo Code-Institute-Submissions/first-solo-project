@@ -151,6 +151,11 @@
 
 /*******************Ships******************/
 
+
+.cost {
+    margin-left: 220px;
+}
+
 .shiptext {
     font-family: "Dosis", sans-serif;
     font-weight: 400;
