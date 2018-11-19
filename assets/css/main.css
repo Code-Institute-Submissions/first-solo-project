@@ -7,6 +7,7 @@
     background: url(../images/bg5.jpg);
     background-position: center;
     background-size: cover;
+    min-height: 120px;
 
 }
 
@@ -153,7 +154,8 @@
 
 
 .cost {
-    margin-left: 220px;
+    color: #fafafa;
+    font-family: "Exo+2", sans-serif;
 }
 
 .shiptext {
@@ -163,25 +165,23 @@
 
 }
 
-.enquire {
-    position: static;
-    float: right;
 
-}
 
 .enquire2 {
-    border: none;
-    background-color: #fec405;
     display: block;
+    background-color: #fec405;
     padding: 5px;
     text-shadow: 5px;
-    margin-top: -40px;
+    border: none;
+    font-family: "Dosis", sans-serif;
+    margin-bottom: 5.5px;
 }
 
 .enquire2 a {
     text-decoration: none;
     color: #000;
     font-family: "Dosis", sans-serif;
+
 }
 
 .enquire2 a:hover {
@@ -216,6 +216,7 @@
     vertical-align: middle;
     margin-left: 5px;
     word-wrap: break-word;
+    color: #fafafa;
 
 
 }
@@ -226,30 +227,50 @@
     background-color: #0a9a4e;
     text-align: center;
     font-family: "Exo+2" sans-serif;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    color: #fafafa;
 }
 
 .banner2 {
     background-color: #424143;
     text-align: center;
     font-family: "Exo+2" sans-serif;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    color: #fafafa;
 }
 
 .banner3 {
     background-color: #cd3000;
     text-align: center;
     font-family: "Exo+2" sans-serif;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    color: #fafafa;
 }
 
 .banner4 {
     background-color: #0a9a4e;
     text-align: center;
     font-family: "Exo+2" sans-serif;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    color: #fafafa;
 }
 
 .banner5 {
     background-color: #1DC3DB;
     text-align: center;
     font-family: "Exo+2" sans-serif;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    color: #fafafa;
 }
 
 .ship-modal {
@@ -265,6 +286,7 @@
     background-size: cover;
     min-height: 200px;
     min-width: 200px;
+    width: 100%;
     float: left;
 }
 
@@ -440,6 +462,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    padding: 10px;
 }
 
 .dropdown-content {
@@ -490,10 +513,13 @@
 
     .ship-description {
         font-size: 25px;
-        margin-bottom: 100px;
     }
 
     .video-tour {
+        margin-top: 60px;
+    }
+    
+    .enquire2 {
         margin-top: 60px;
     }
 
