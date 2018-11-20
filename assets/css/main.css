@@ -240,9 +240,14 @@ section {
     text-align: center;
     font-family: "Exo+2" sans-serif;
     font-size: 15px;
-    float: left;
     padding: 10px;
     color: #fafafa;
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
 }
 
 .banner2 {
@@ -253,6 +258,9 @@ section {
     float: left;
     padding: 10px;
     color: #fafafa;
+    position: absolute;
+
+
 }
 
 .banner3 {
@@ -263,6 +271,8 @@ section {
     float: left;
     padding: 10px;
     color: #fafafa;
+    position: absolute;
+
 }
 
 .banner4 {
@@ -273,6 +283,8 @@ section {
     float: left;
     padding: 10px;
     color: #fafafa;
+    position: absolute;
+
 }
 
 .banner5 {
@@ -283,6 +295,8 @@ section {
     float: left;
     padding: 10px;
     color: #fafafa;
+    position: absolute;
+
 }
 
 .ship-modal {
@@ -291,65 +305,7 @@ section {
     width: 100%;
 }
 
-.yacht1 {
-    background: url(../images/my1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    min-width: 200px;
-    width: 100%;
-    float: left;
-    margin-left: 10px;
-}
 
-.yacht2 {
-    background: url(../images/my2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    min-width: 200px;
-    float: left;
-    margin-left: 10px;
-
-}
-
-.yacht3 {
-    background: url(../images/my3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    min-width: 200px;
-    float: left;
-    margin-left: 10px;
-
-}
-
-.yacht4 {
-    background: url(../images/my4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    min-width: 200px;
-    float: left;
-    margin-left: 10px;
-
-}
-
-.yacht5 {
-    background: url(../images/my5.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    min-width: 200px;
-    float: left;
-    margin-left: 10px;
-
-}
 
 
 /***************Customerlounge****************/
