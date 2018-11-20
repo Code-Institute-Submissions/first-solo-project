@@ -52,14 +52,13 @@ https://en.wikipedia.org/wiki/Cascading_Style_Sheets
  
 ### Testing ###
 
-https://drive.google.com/open?id=1vcSAKSjdgo9CJ9ljWTawHTpZZu0Zwgtd
+https://drive.google.com/open?id=12LM-yDNew4-CdCtcddhKzLlufRXqnrDWScAJCZmGcAU
 
 
 ### Deployment ###
 
-I deployed this project using git-hub pages.
+I deployed this project using git-hub pages. I first had to link the existing .git repository in cloud 9 to githubs in order to publish the website. 
 
-### Credits ###
 
 #### Content ####
 
