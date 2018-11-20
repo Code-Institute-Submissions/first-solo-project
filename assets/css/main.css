@@ -134,8 +134,9 @@ section {
 /******************setsail**************/
 
 .setsail {
-    padding-left: 200px;
-    padding-top: 300px;
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
     font-family: "Dosis", sans-serif;
 }
 
@@ -164,10 +165,9 @@ section {
 
 /*******************Ships******************/
 
-
 .cost {
+    font-family: "Dosis", sans-serif;
     color: #fafafa;
-    font-family: "Exo+2", sans-serif;
 }
 
 .shiptext {
@@ -300,6 +300,7 @@ section {
     min-width: 200px;
     width: 100%;
     float: left;
+    margin-left: 10px;
 }
 
 .yacht2 {
@@ -310,6 +311,8 @@ section {
     min-height: 200px;
     min-width: 200px;
     float: left;
+    margin-left: 10px;
+
 }
 
 .yacht3 {
@@ -320,6 +323,8 @@ section {
     min-height: 200px;
     min-width: 200px;
     float: left;
+    margin-left: 10px;
+
 }
 
 .yacht4 {
@@ -330,6 +335,8 @@ section {
     min-height: 200px;
     min-width: 200px;
     float: left;
+    margin-left: 10px;
+
 }
 
 .yacht5 {
@@ -340,6 +347,8 @@ section {
     min-height: 200px;
     min-width: 200px;
     float: left;
+    margin-left: 10px;
+
 }
 
 
@@ -475,26 +484,29 @@ section {
     position: relative;
     display: inline-block;
     padding: 10px;
+    font-family: "Dosis", sans-serif;
+
 }
 
 .dropdown-content {
     margin-left: 20px;
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: rgb(0, 0, 0, 0.9);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    font-family: "Exo+2", sans-serif;
+    font-family: "Dosis", sans-serif;
+    border-radius: 10px;
 
 }
 
 .dropdown-content a {
-    color: black;
+    color: #fafafa;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: "Exo+2", sans-serif;
+    font-family: "Dosis", sans-serif;
 
 }
 
@@ -530,7 +542,7 @@ section {
     .video-tour {
         margin-top: 60px;
     }
-    
+
     .enquire2 {
         margin-top: 60px;
     }
